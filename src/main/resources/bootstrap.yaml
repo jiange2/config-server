@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/jiange2/config-server.git
+          uri: https://github.com/jiange2/configs.git
           skipSslValidation: true
           search-paths: '{profile}/{application}'
 eureka:
