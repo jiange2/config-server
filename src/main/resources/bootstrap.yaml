@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/tw-cloud-native/configs.git
+          uri: https://github.com/jiange2/config-server.git
           skipSslValidation: true
           search-paths: '{profile}/{application}'
 eureka:
